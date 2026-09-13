@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Lapka - Зворотний зв'язок</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css"/>
+</head>
+<body>
+
+<header>
+    <h1>Lapka</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="pets.html">Каталог тварин</a></li>
+            <li><a href="contact.html">Зворотний зв'язок</a></li>
+            <li><a href="shelter-register.html">Зареєструвати притулок</a></li>
+            <li><a href="login.html">Увійти в кабінет</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section>
+    <h2>Зв'яжіться з нами</h2>
+    <p>Маєте питання щодо усиновлення, співпраці чи роботи сайту? Напишіть нам — ми відповімо
+        якомога швидше.</p>
+
+    <form action="#" method="post" name="contactForm">
+        <p>
+            <label for="name">Ваше ім'я:</label><br/>
+            <input type="text" id="name" name="name" size="30" required="required"/>
+        </p>
+
+        <p>
+            <label for="email">Електронна пошта:</label><br/>
+            <input type="email" id="email" name="email" size="30" required="required"/>
+        </p>
+
+        <p>
+            <label for="subject">Тема звернення:</label><br/>
+            <select id="subject" name="subject">
+                <option value="adoption">Питання про усиновлення</option>
+                <option value="shelter">Співпраця з притулком</option>
+                <option value="technical">Технічна проблема на сайті</option>
+                <option value="other">Інше</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="message">Ваше повідомлення:</label><br/>
+            <textarea id="message" name="message" rows="6" cols="40" required="required"></textarea>
+        </p>
+
+        <p>
+            <button class="submit-btn" type="submit">Надіслати повідомлення</button>
+        </p>
+    </form>
+</section>
+
+<hr/>
+
+<section>
+    <h3>Інші способи зв'язку</h3>
+    <p>Електронна пошта: <a href="mailto:hello.lapka@gmail.com">hello.lapka@gmail.com</a></p>
+    <p>Телефон: +380 44 123 45 67</p>
+</section>
+
+<hr/>
+
+<footer>
+    <p>&copy; 2026 Lapka</p>
+    <p>Допомагаємо лапкам знайти свій дім, а людям — свою історію! </p>
+    <p>Зв'язатися з нами: <a href="mailto:hello.lapka@gmail.com">hello.lapka@gmail.com</a></p>
+</footer>
+
+</body>
+</html>
